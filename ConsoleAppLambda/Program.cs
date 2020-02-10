@@ -20,7 +20,7 @@ namespace ConsoleAppLambda
             int product = numbers
                 .Aggregate(1, (interim, next) => interim * next);
             Console.WriteLine(product);   // output: 280
-        }
+        } 
     }
 
     class Person
